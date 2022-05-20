@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="x-icon" href="Images/favicon.jpg">
+    <style>
+        body{
+            background-image: url("Images/bg-light.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+    <link rel="stylesheet" href="styleindex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a style="font-family: Audiowide;" class="navbar-brand" href="#">EPurify</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="companyabout.html">Company</a></li>
+                      <li><a href="rulesabout.html">Rules</a></li>
+                    </ul>
+                  </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="signin.html">Signin</a></li>
+                <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span>Sign In</a></li>
+                <li class="active"><a href='signup.html'><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center text-center" >
+                <div class="centered" style="font-family: 'Lobster', cursive;">
+                    <h2><br><br><br>Welcome Here,<br></h2>
+                    <h3>We are happy to see you here<br> to conserve our nature... <br><br></h3>
+                    <h4><br>The world requires a lot of things </h4>
+                    <h4>to be renowned and re-used to keep it safe<br><br></h4>
+                    <h4><br>One such thing is taken </h4>
+                    <h4>care by you now<br><br></h4>
+                    <h4><br>We as a team of EPurify</h4>
+                    <h4>requesting you to constantly </h4>
+                    <h4>refer our Greeny Website to </h4>
+                    <h4>your family and friends</h4>
+                    <h4>to keep our nature Green<br><br><br></h4>
+                
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6" >
+                <div class="formborder container ">
+                    <div id="signinformcenter">
+                        <form class="formcontent">
+                            <h2>Sign-up</h2>
+                            <label for="name">Name : </label>
+                            <input type="text" id="name" required><br><br>
+                            <label for="uname">Username : </label>
+                            <input type="text" id="uname" required ><br><br>
+                            <label for="upassword">Password : </label>
+                            <input type="password" id="upassword" placeholder="Enter your Password" required ><br><br>
+                            <label for="uconfirmpass">Confirm Password : </label>
+                            <input type="password" placeholder="Re-Enter your Password"  id="uconfirmpass" required><br><br>
+                    
+                            <label for="dob">D.O.B : </label>
+                            <input type="date" id="dob" > <br>
+                    
+                            <p>Gender : </p>
+                            <input type="radio" id="male" name="gender" value="Male" checked>
+                            <label for="male" >Male</label>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label><br><br>
+                    
+                            <label for="city">Choose Your City : </label>
+                            <select id="city" name="city">
+                                <option value="Erode" >Erode</option>
+                                <option value="Salem" selected>Salem</option>
+                                <option value="Coimbatore">Coimbatore</option>
+                                <option value="Tiruppur">Tiruppur</option>
+                                <option value="Chennai">Chennai</option>
+                            </select><br><br>
+                    
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset"> <br>
+                    
+                            <p>Already Have an account? <a href="signin.html"><span style="color: aqua;">Signin</span></a></p>
+                    
+                        </form>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    
+    
+    
+</body>
+</html>

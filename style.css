@@ -1,0 +1,32 @@
+.centered{
+    color: yellowgreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+.left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+
+  .formborder{
+      border: 2px solid brown;
+      border-radius: 25px;
+      padding: 10px;
+  }
